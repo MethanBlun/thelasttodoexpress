@@ -1,0 +1,117 @@
+
+.tasks,
+.doing,
+.done {
+    border: 1px solid #333;
+    border-radius: 10px; 
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+}
+
+.tasks {
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.tasksSide ,.doing-side ,.done-side{
+    padding: 15px;
+    height: 80%;
+    border-top: 1px solid;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 30px;
+    
+}
+
+.newTasks{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.tasksButton {
+    display: flex;
+    justify-content: right; 
+    align-items: center;
+    padding: 10px;
+}
+
+.addButton {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #fff; 
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .addButton:hover {
+    background-color: #218838; 
+  }
+  
+
+
+
+
+
+
+.doing {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.done {
+    border-bottom: 1px solid black;
+    margin-left: 10px;
+}
+
+
+.cardName{
+    text-align: center;
+    font: 1em italic;
+}
+
+
+
+
+.finishedTask{
+    display: flex;
+    flex-wrap: nowrap;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: aqua;
+    
+}
+#taskInput {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  #taskInput:focus {
+    border-color: #007BFF; 
+    outline: none;
+  }
+
+
+  .field-addButton {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF; 
+    color: #fff; 
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .field-addButton:hover {
+    background-color: #0056b3; 
+  }
+  

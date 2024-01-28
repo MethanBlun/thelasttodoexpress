@@ -1,0 +1,14 @@
+
+
+.tasksbutton{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 10px; 
+}
+
+.field-addButton{
+    color: black;
+   background-color: transparent;
+   border-radius: 8px;
+}

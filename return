@@ -1,0 +1,47 @@
+[33mcommit bd6cf67e4d62ad7898ecd8d8fef323fc705f8a84[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Methanblun <methanblun@gmail.com>
+Date:   Fri Dec 29 00:54:59 2023 +0000
+
+    function learning (addEventLIstener , event.key)
+
+[33mcommit dc18cf6ed344bd1c7b7309493bf9bfd5763d6bd8[m
+Author: Methanblun <methanblun@gmail.com>
+Date:   Wed Dec 27 11:37:49 2023 +0000
+
+    html restructure for align the text field and sumbmit button in the same line
+
+[33mcommit 6ad7b9fa12a33b00e55e766be9fe72003c544119[m
+Author: Methanblun <methanblun@gmail.com>
+Date:   Tue Dec 26 18:35:50 2023 +0000
+
+    second commit test
+
+[33mcommit 2a25220bb7cd3da3149c141b60c587cc513d2f1f[m
+Author: Methanblun <methanblun@gmail.com>
+Date:   Tue Dec 26 18:33:05 2023 +0000
+
+    test commit
+
+[33mcommit 1493c887090fe74e087e82f2fed544cc9edd141f[m
+Author: Methanblun <methanblun@gmail.com>
+Date:   Tue Dec 26 15:37:42 2023 +0000
+
+    add button on tesks side
+
+[33mcommit 5308c18662d32bec7eecf5332dd148ed451a28ec[m
+Author: Methanblun <methanblun@gmail.com>
+Date:   Mon Dec 25 23:14:21 2023 +0000
+
+    ui croquis
+
+[33mcommit 5927f3cd2c16fb8786d89a2acfa6789c0effd342[m
+Author: Methanblun <VotreEmailGitHub>
+Date:   Mon Dec 25 13:49:25 2023 +0000
+
+    folder add : scrpit.js , style.css
+
+[33mcommit 4e1951003e6157c6bfa3e6751820893f8f9300d2[m
+Author: Methanblun <VotreEmailGitHub>
+Date:   Mon Dec 25 13:40:51 2023 +0000
+
+    first commit
