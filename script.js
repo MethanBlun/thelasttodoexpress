@@ -20,7 +20,7 @@ function addTask() {
     toDoDiv.appendChild(newToDo);
     generatedTask.appendChild(toDoDiv); 
 
-    document.getElementById('taskInputed').value = '';  // Effacement du champ d'entrée
+    document.getElementById('taskInput').value = ''; 
   }
 }
 // })
