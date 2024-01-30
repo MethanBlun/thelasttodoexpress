@@ -27,6 +27,7 @@
 }
 
 .newTasks{
+  border-top: 1px solid;
     display: flex;
   
     flex-wrap: nowrap;
@@ -62,7 +63,7 @@
 
 
 .cardName{
-    text-align: center;
+     text-align: center; 
     font: 1em italic;
 }
 
@@ -98,7 +99,6 @@
   }
   
   .addButton:hover {
-    border: solid 1px;
     background-color: #0056b3; 
   }
   
