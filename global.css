@@ -20,3 +20,16 @@ body{
     width: 80%;
     margin-top: 50px;
 }
+
+
+.todo-item {
+    list-style-type: none; /* Supprime la puce */
+    display: inline; /* Affiche l'élément en tant qu'élément en ligne */
+    list-style-type: none; /* Supprime la puce */
+    background-color: #f0f0f0; /* Couleur de fond */
+    color: #333; /* Couleur du texte */
+    padding: 10px; /* Rembourrage intérieur */
+    margin-bottom: 5px; /* Marge en bas */
+    border-radius: 5px; /* Bordure arrondie */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre */
+}
