@@ -8,17 +8,17 @@
     flex-direction: column-reverse;
     gap: 30px;
 }
-.begginButton,.addButton{
+.beginButton,.addButton{
    color: black;
    background-color: transparent;
    border-radius: 8px; 
 }
 
 
-.begginButton{
+.beginButton{
 
 
-    
+
     
    padding: 10px 15px;
     font-size: 16px;
