@@ -1,15 +1,18 @@
 
+  
 
-
-
+// verifier si la taille du textinputed n'est pas suprieur a 40lettres
 
 function addTask() {
   let taskInputed = document.getElementById('taskInput').value;
   const generatedTask = document.getElementById('generatedTask')
+  
 
   if (taskInputed === '') {
     alert("You must write something!");
-  } else {
+  }
+ else {
+
      
     const toDoDiv = document.createElement("div");
     const newToDo = document.createElement('li');

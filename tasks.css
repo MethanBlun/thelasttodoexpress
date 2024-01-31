@@ -18,16 +18,13 @@
     padding: 15px;
     height: 80%;
     border-top: 1px solid;
-    /* display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap; */
     
     gap: 30px;
     
 }
 
 .newTasks{
-  border-top: 1px solid;
+    border-top: 1px solid;
     display: flex;
   
     flex-wrap: nowrap;
