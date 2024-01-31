@@ -18,7 +18,9 @@
     padding: 15px;
     height: 80%;
     border-top: 1px solid;
-    
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap; */
     gap: 30px;
     
 }
@@ -38,9 +40,9 @@
 
 
   
-  .addButton:hover {
+  /* .addButton:hover {
     background-color: #218838; 
-  }
+  } */
   
 
 
