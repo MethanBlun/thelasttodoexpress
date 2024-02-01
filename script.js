@@ -5,17 +5,16 @@
 // ajouter la bouton qui fait basculer le Inputed task en doing task
 
 
+
 function addTask() {
   let taskInputed = document.getElementById('taskInput').value;
   const generatedTask = document.getElementById('generatedTask')
   
-
   if (taskInputed === '') {
     alert("You must write something!");
   }
  else {
 
-     
     const toDoDiv = document.createElement("div");
     const newToDo = document.createElement('li');
     const beginButton = document.createElement('button');
@@ -24,12 +23,12 @@ function addTask() {
     newToDo.classList.add('todo-item');
     beginButton.classList.add('beginButton');
     toDoDiv.classList.add('inputedDiv');
+
     beginButton.textContent = ('begin');
-    
-
     beginButton.onclick = beginButtonOnclick;
- 
 
+    
+ 
     toDoDiv.appendChild(newToDo);
     toDoDiv.appendChild(beginButton);
     generatedTask.appendChild(toDoDiv); 
@@ -40,9 +39,24 @@ function addTask() {
 
  function beginButtonOnclick(){
 
-  const doingTaskDiv = document.createElement('div'); 
-  doingTaskDiv.textContent = document.getElementById('taskInput').value;
-  doingTaskDiv.classList.add('doing-task')
-  const destination = document.getElementById('begunTask')
-  destination.appendChild('doingTaskDiv')
+  
+  const taskInputed = this.parentElement.querySelector('.todo-item').textContent;
+
+
+  const doingTaskDiv = document.createElement('div');
+  doingTaskDiv.textContent = taskInputed;
+
+  const begunTask = document.getElementById('begunTask')
+
+  begunTask.appendChild(doingTaskDiv)
+  
+
+
+
+
+  //   doingTaskDiv.textContent = taskInputed;
+  //  doingTaskDiv.classList.add('doingTaskDiv');
+  //  const destination = document.getElementById('doing-side');
+  //  destination.appendChild(doingTaskDiv);
+ 
 }
