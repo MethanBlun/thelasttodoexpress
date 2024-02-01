@@ -14,21 +14,15 @@
     display: flex;
     flex-direction: column;
 }
-.tasksGenerator ,.doing-side ,.done-side{
+.tasksGenerator  ,.done-side{
     padding: 15px;
-    height: 80%;
+    height: 100%;
     border-top: 1px solid;
-    /* display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap; */
-    gap: 30px;
-    
 }
 
 .newTasks{
     border-top: 1px solid;
     display: flex;
-  
     flex-wrap: nowrap;
 }
 .tasksButton {
@@ -37,17 +31,6 @@
     align-items: center;
     padding: 10px;
 }
-
-
-  
-  /* .addButton:hover {
-    background-color: #218838; 
-  } */
-  
-
-
-
-
 
 
 .doing {

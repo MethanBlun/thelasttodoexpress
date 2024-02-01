@@ -37,3 +37,19 @@
     flex-wrap: nowrap;
 
 }
+
+
+.begunTask{
+    height: 100%;
+    background-color: black;
+    width: 20px;
+}
+
+.doing-side{
+    padding: 15px;
+
+    height: 100%;
+    border-top: 1px solid;
+
+
+}

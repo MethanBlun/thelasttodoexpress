@@ -3,7 +3,7 @@
 
 // verifier si la taille du textinputed n'est pas suprieur a 40lettres
 // ajouter la bouton qui fait basculer le Inputed task en doing task
-// comment recuperer dynamiquement le onclick d'une fonction
+
 
 function addTask() {
   let taskInputed = document.getElementById('taskInput').value;
@@ -18,20 +18,20 @@ function addTask() {
      
     const toDoDiv = document.createElement("div");
     const newToDo = document.createElement('li');
-    const beginButton = document.createElement('button')
+    const beginButton = document.createElement('button');
 
     newToDo.textContent = taskInputed;
     newToDo.classList.add('todo-item');
-    beginButton.classList.add('beginButton')
-    toDoDiv.classList.add('inputedDiv')
-    beginButton.textContent = ('begin')
+    beginButton.classList.add('beginButton');
+    toDoDiv.classList.add('inputedDiv');
+    beginButton.textContent = ('begin');
     
 
-    beginButton.onclick = beginButtonOnclick
+    beginButton.onclick = beginButtonOnclick;
  
 
     toDoDiv.appendChild(newToDo);
-    toDoDiv.appendChild(beginButton)
+    toDoDiv.appendChild(beginButton);
     generatedTask.appendChild(toDoDiv); 
     document.getElementById('taskInput').value = ''; 
   }
@@ -39,5 +39,10 @@ function addTask() {
 }
 
  function beginButtonOnclick(){
-    console.log('le bouton marche')
-  }
+
+  const doingTaskDiv = document.createElement('div'); 
+  doingTaskDiv.textContent = document.getElementById('taskInput').value;
+  doingTaskDiv.classList.add('doing-task')
+  const destination = document.getElementById('begunTask')
+  destination.appendChild('doingTaskDiv')
+}
