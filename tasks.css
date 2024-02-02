@@ -6,6 +6,7 @@
     border-radius: 10px; 
     padding: 20px;
     margin: 10px;
+
   
 }
 
@@ -37,7 +38,7 @@
 .doing {
     margin-right: 10px;
     margin-left: 10px;
-    width: 300px;
+    width: 471px; 
 }
 
 .done {

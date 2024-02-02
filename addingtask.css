@@ -15,11 +15,7 @@
 }
 
 
-.beginButton{
-
-
-
-    
+.beginButton{  
    padding: 10px 15px;
     font-size: 16px;
     border: none;
@@ -39,22 +35,21 @@
 }
 
 
-.begunTask{
-    border: black solid 1px;
-    background-color: #fff;
+.begunTask{ 
+   width: 400px;
     height: 30px;
-    border-radius: 5px;
-    width: 200px;
-
-    
+   border: 1px solid #ccc; 
+    background-color: #f9f9f9; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;  
+    padding: 2px;  
 }
 
 .doing-side{
     padding: 15px;
-  
     border-top: 1px solid;
     display: flex;
-  
     flex-wrap: nowrap;
   
 
