@@ -40,21 +40,23 @@
 
 
 .begunTask{
-    height: 30%;
-    background-color: white;
-    width: 100px;
-    border: 2px solid red;
+    border: black solid 1px;
+    background-color: #fff;
+    height: 30px;
     border-radius: 5px;
-    
+    width: 200px;
+
     
 }
 
 .doing-side{
     padding: 15px;
-
-    
-    height: 60%;
+  
     border-top: 1px solid;
+    display: flex;
+  
+    flex-wrap: nowrap;
+  
 
 
 }

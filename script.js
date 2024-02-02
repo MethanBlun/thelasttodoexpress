@@ -2,7 +2,8 @@
   
 
 // verifier si la taille du textinputed n'est pas suprieur a 40lettres
-// ajouter la bouton qui fait basculer le Inputed task en doing task
+// faire le style
+//creer des li qui separe chaque nouvelle todo div ajoute a la doing side
 
 
 
@@ -39,24 +40,12 @@ function addTask() {
 
  function beginButtonOnclick(){
 
-  
   const taskInputed = this.parentElement.querySelector('.todo-item').textContent;
-
-
   const doingTaskDiv = document.createElement('div');
+  doingTaskDiv.classList.add('begunTask')
   doingTaskDiv.textContent = taskInputed;
-
   const begunTask = document.getElementById('begunTask')
-
   begunTask.appendChild(doingTaskDiv)
+  this.parentElement.remove()
   
-
-
-
-
-  //   doingTaskDiv.textContent = taskInputed;
-  //  doingTaskDiv.classList.add('doingTaskDiv');
-  //  const destination = document.getElementById('doing-side');
-  //  destination.appendChild(doingTaskDiv);
- 
 }
