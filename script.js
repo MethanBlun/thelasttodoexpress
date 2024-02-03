@@ -2,8 +2,7 @@
   
 
 // verifier si la taille du textinputed n'est pas suprieur a 40lettres
-// faire le style
-//creer des li qui separe chaque nouvelle todo div ajoute a la doing side
+// faire le style du beguTask
 
 
 
@@ -43,21 +42,16 @@ function addTask() {
   const taskInputed = this.parentElement.querySelector('.todo-item').textContent;
   const doingSide = document.getElementById('doing-side')
 
-
-  const begunTask = document.createElement('div')
-  begunTask.classList.add('begunTask')
-  begunTask.textContent = taskInputed
-  doingSide.appendChild(begunTask)
-
-  // const doingTaskDiv = document.createElement('div');
-  // doingTaskDiv.classList.add('begunTask')
-  // doingTaskDiv.textContent = taskInputed;
-  // const doingSide = document.getElementById('doing-side')
+  const begunTaskDiv = document.createElement('div')
+  const begunTaskText = document.createElement('div')
+  begunTaskDiv.classList.add('begunTaskDiv')
+  begunTaskText.classList.add('begunTaskText')
+  begunTaskText.textContent = taskInputed
+  begunTaskDiv.appendChild(begunTaskText)
+  doingSide.appendChild(begunTaskDiv)
 
 
-  //  const begunTask = document.getElementById('begunTask')
-  
-  //  doingSide.appendChild(begunTask)
+
   this.parentElement.remove()
   
 }

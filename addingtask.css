@@ -35,7 +35,7 @@
 }
 
 
-.begunTask{ 
+.begunTaskText{ 
    width: 400px;
     height: 30px;
    border: 1px solid #ccc; 
@@ -44,14 +44,20 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: left;  
     padding: 2px;  
+    padding: 7px;
 }
 
 .doing-side{
     padding: 15px;
     border-top: 1px solid;
     display: flex;
+    flex-direction: column-reverse;
+    gap: 15px;
     flex-wrap: nowrap;
-  
+}
 
-
+.begunTaskDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
