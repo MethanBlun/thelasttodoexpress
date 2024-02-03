@@ -49,15 +49,48 @@ function addTask() {
   finishedTaskCheckBox.classList.add('finishedTaskCheckBox')
   const begunTaskText = document.createElement('div')
   begunTaskDiv.classList.add('begunTaskDiv')
+
+
   begunTaskText.classList.add('begunTaskText')
   begunTaskText.textContent = taskInputed
+
   begunTaskDiv.appendChild(finishedTaskCheckBox);
   begunTaskDiv.appendChild(begunTaskText)
   doingSide.appendChild(begunTaskDiv)
 
 
-
+  finishedTaskCheckBox.addEventListener('change', function() {
+    if (this.checked) {
+      taskFinished(taskInputed);
+    }
+  });
 
   this.parentElement.remove()
   
 }
+
+
+
+function taskFinished(task) {
+  const doneSide = document.getElementById('done-side');
+  const doneDiv = document.createElement('div');
+  doneDiv.textContent = task;
+  doneSide.appendChild(doneDiv);
+
+
+  this.parentElement.remove()
+}
+
+// function taskFinished() {
+
+//   const doneSide = document.getElementById('done-side')
+//   const taskInputed = this.parentElement.querySelector('.todo-item').value;
+//   const doneDiv = document.createElement('div')
+//   doneDiv.textContent = taskInputed
+//   doneSide.appendChild(doneDiv)
+
+// }
+
+
+
+

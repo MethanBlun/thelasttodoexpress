@@ -4,10 +4,10 @@
 
 .finishedTaskCheckBox {
     cursor: pointer;
-    width: 30px;
+    width: 25px;
     border: 1px solid #999;
     background-color: #fff;
 }
 .finishedTaskCheckBox:hover{
-    /* background-color: #007bff; */
+    background-color: #007bff;
 }
