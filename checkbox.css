@@ -1,0 +1,13 @@
+
+
+
+
+.finishedTaskCheckBox {
+    cursor: pointer;
+    width: 30px;
+    border: 1px solid #999;
+    background-color: #fff;
+}
+.finishedTaskCheckBox:hover{
+    /* background-color: #007bff; */
+}

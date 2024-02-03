@@ -2,7 +2,7 @@
   
 
 // verifier si la taille du textinputed n'est pas suprieur a 40lettres
-// ajouter le bputon checkbox
+// ajouter du style au bouton checkbox
 
 
 
@@ -46,6 +46,7 @@ function addTask() {
   const finishedTaskCheckBox = document.createElement('input')
   finishedTaskCheckBox.setAttribute('type','checkbox')
   finishedTaskCheckBox.setAttribute('id','finishedTaskCheckBox')
+  finishedTaskCheckBox.classList.add('finishedTaskCheckBox')
   const begunTaskText = document.createElement('div')
   begunTaskDiv.classList.add('begunTaskDiv')
   begunTaskText.classList.add('begunTaskText')
