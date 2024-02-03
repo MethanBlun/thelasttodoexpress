@@ -2,7 +2,7 @@
   
 
 // verifier si la taille du textinputed n'est pas suprieur a 40lettres
-// faire le style du beguTask
+// ajouter le bputon checkbox
 
 
 
@@ -43,12 +43,17 @@ function addTask() {
   const doingSide = document.getElementById('doing-side')
 
   const begunTaskDiv = document.createElement('div')
+  const finishedTaskCheckBox = document.createElement('input')
+  finishedTaskCheckBox.setAttribute('type','checkbox')
+  finishedTaskCheckBox.setAttribute('id','finishedTaskCheckBox')
   const begunTaskText = document.createElement('div')
   begunTaskDiv.classList.add('begunTaskDiv')
   begunTaskText.classList.add('begunTaskText')
   begunTaskText.textContent = taskInputed
+  begunTaskDiv.appendChild(finishedTaskCheckBox);
   begunTaskDiv.appendChild(begunTaskText)
   doingSide.appendChild(begunTaskDiv)
+
 
 
 
