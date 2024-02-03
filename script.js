@@ -41,11 +41,23 @@ function addTask() {
  function beginButtonOnclick(){
 
   const taskInputed = this.parentElement.querySelector('.todo-item').textContent;
-  const doingTaskDiv = document.createElement('div');
-  doingTaskDiv.classList.add('begunTask')
-  doingTaskDiv.textContent = taskInputed;
-  const begunTask = document.getElementById('begunTask')
-  begunTask.appendChild(doingTaskDiv)
+  const doingSide = document.getElementById('doing-side')
+
+
+  const begunTask = document.createElement('div')
+  begunTask.classList.add('begunTask')
+  begunTask.textContent = taskInputed
+  doingSide.appendChild(begunTask)
+
+  // const doingTaskDiv = document.createElement('div');
+  // doingTaskDiv.classList.add('begunTask')
+  // doingTaskDiv.textContent = taskInputed;
+  // const doingSide = document.getElementById('doing-side')
+
+
+  //  const begunTask = document.getElementById('begunTask')
+  
+  //  doingSide.appendChild(begunTask)
   this.parentElement.remove()
   
 }
