@@ -3,7 +3,7 @@
 
 // verifier si la taille du textinputed n'est pas suprieur a 40lettres
 //supprimer le begunTaskDiv une son text transferer vers done 
-//ajouter du style a doneTaskDIv
+
 
 
 
@@ -63,6 +63,7 @@ function addTask() {
   finishedTaskCheckBox.addEventListener('change', function() {
     if (this.checked) {
       taskFinished(taskInputed);
+      begunTaskDiv.remove()
     }
   });
 
@@ -70,14 +71,13 @@ function addTask() {
   
 }
 
-
-
 function taskFinished(task) {
   const doneSide = document.getElementById('done-side');
   const doneTaskDiv = document.createElement('div');
   doneTaskDiv.classList.add('doneTaskDiv')
   doneTaskDiv.textContent = task;
   doneSide.appendChild(doneTaskDiv);
+  
 
 
   
