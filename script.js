@@ -2,8 +2,7 @@
   
 
 // verifier si la taille du textinputed n'est pas suprieur a 40lettres
-//supprimer le begunTaskDiv une son text transferer vers done 
-
+//ordonner les packages css
 
 
 
