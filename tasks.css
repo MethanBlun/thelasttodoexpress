@@ -16,7 +16,7 @@
     flex-direction: column;
     width: 500px;
 }
-.tasksGenerator  ,.done-side{
+.tasksGenerator  {
     padding: 15px;
     height: 100%;
     border-top: 1px solid;

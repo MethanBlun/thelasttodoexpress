@@ -2,7 +2,8 @@
   
 
 // verifier si la taille du textinputed n'est pas suprieur a 40lettres
-// ajouter du style au bouton checkbox
+//supprimer le begunTaskDiv une son text transferer vers done 
+//ajouter du style a doneTaskDIv
 
 
 
@@ -73,23 +74,14 @@ function addTask() {
 
 function taskFinished(task) {
   const doneSide = document.getElementById('done-side');
-  const doneDiv = document.createElement('div');
-  doneDiv.textContent = task;
-  doneSide.appendChild(doneDiv);
+  const doneTaskDiv = document.createElement('div');
+  doneTaskDiv.classList.add('doneTaskDiv')
+  doneTaskDiv.textContent = task;
+  doneSide.appendChild(doneTaskDiv);
 
 
-  this.parentElement.remove()
+  
 }
-
-// function taskFinished() {
-
-//   const doneSide = document.getElementById('done-side')
-//   const taskInputed = this.parentElement.querySelector('.todo-item').value;
-//   const doneDiv = document.createElement('div')
-//   doneDiv.textContent = taskInputed
-//   doneSide.appendChild(doneDiv)
-
-// }
 
 
 
